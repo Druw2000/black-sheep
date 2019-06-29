@@ -1,3 +1,19 @@
-.container-fluid {
+#page {
 	background-color: #f1f1f1;
+}
+
+#page #content .col-3 {
+	border: 1px solid black;
+}
+
+#page #content .col-3:hover {
+	border: 1px solid red;
+}
+
+#page #content .col-6 {
+	border: 1px solid black;
+}
+
+#page #content .col-6:hover {
+	border: 1px solid red;
 }

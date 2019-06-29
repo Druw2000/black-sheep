@@ -8,24 +8,24 @@ router.use(function (req,res,next) {
 	next();
 });
 
-router.get("/",function(req,res){
+router.get("/",function(req,res) {
 	res.sendFile(path + "index.html");
 });
 
-router.get("/about",function(req,res){
+router.get("/about",function(req,res) {
 	res.sendFile(path + "about.html");
 });
 
-router.get("/contact",function(req,res){
+router.get("/contact",function(req,res) {
 	res.sendFile(path + "contact.html");
 });
 
 app.use("/",router);
 
-app.use("*",function(req,res){
+app.use("*",function(req,res) {
 	res.sendFile(path + "404.html");
 });
 
-app.listen(8080,function(){
+app.listen(8080,function() {
 	console.log("Listening on port 8080");
 });
