@@ -17,8 +17,6 @@
   },
   "homepage": "https://github.com/druw2000/black-sheep#readme",
   "dependencies": {
-    "jquery": "^3.4.1",
-    "popper.js": "^1.15.0",
     "express": "latest"
   }
 }
