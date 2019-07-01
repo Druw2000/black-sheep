@@ -1,0 +1,27 @@
+{
+  "name": "black-sheep",
+  "version": "1.0.0",
+  "description": "a social network",
+  "main": "node.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/druw2000/black-sheep.git"
+  },
+  "author": "Andruw Earnhardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/druw2000/black-sheep/issues"
+  },
+  "homepage": "https://github.com/druw2000/black-sheep#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "latest",
+    "express-session": "^1.16.2",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}

@@ -1,0 +1,56 @@
+.container {
+	background-color: #f1f1f1;
+}
+
+header {
+	background-color: #2d2d2d;
+	color: #eeeeee;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.user {
+	font-weight: bold;
+}
+
+#profile {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#profile:hover {
+	border-color: red;
+}
+
+#feed {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#feed:hover {
+	border-color: red;
+}
+
+#feed .post {
+	text-align: left;
+}
+
+#inbox {
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+#inbox:hover {
+	border-color: red;
+}
+
+#inbox .notification {
+	text-align: left;
+}
+
+footer {
+	background-color: #2d2d2d;
+	color: #eeeeee;
+	border: 1px solid black;
+	border-radius: 4px;
+}
