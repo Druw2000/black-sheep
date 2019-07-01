@@ -1,1 +1,0 @@
-document.getElementsByName("login")[0].onclick = function(){alert("User logged in");};
